@@ -28,7 +28,7 @@ public class CreateAnAccount extends PreSetupTestSteps {
 	
 	
 	
-	@Test(groups="regression",priority=1)
+	@Test(groups="regression",priority=2)
 	@SuppressWarnings("deprecation")
 	public void createaccountwithBalnkEmailField(){		
 		
