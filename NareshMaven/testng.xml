@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CandiatePSIExams">
+	<test name="regressiontesing">
+	<parameter name="appurl" value="https://candidate.psiexams.com/index.jsp"></parameter>
+	<groups>
+		<run>
+		  <include name="regression"></include>
+		</run>	
+	</groups>
+		<classes>
+		  <class name="com.testng.CreateAnAccount"></class>
+		   <class name="com.testng.RegisterForTest"></class>
+		</classes>	
+	</test>
+</suite>
