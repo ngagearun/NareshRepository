@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Automationpractice]">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="URL" value="http://automationpractice.com/index.php"/>
+  <test name="Regression(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="URL" value="http://automationpractice.com/index.php"/>
+    <classes>
+      <class name="com.testng.BuyaProduct">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="checkoutitem"/>
+          <include name="check_application"/>
+          <include name="clickapplication"/>
+        </methods>
+      </class> <!-- com.testng.BuyaProduct -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Automationpractice] -->

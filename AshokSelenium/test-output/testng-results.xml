@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ParallelTesting" duration-ms="69044" started-at="2019-11-02T03:30:20Z" finished-at="2019-11-02T03:31:29Z">
+    <groups>
+    </groups>
+    <test name="chromebrowser" duration-ms="66859" started-at="2019-11-02T03:30:20Z" finished-at="2019-11-02T03:31:27Z">
+      <class name="com.testng.DataProvider">
+        <test-method status="PASS" signature="setupbrowser(java.lang.String)[pri:0, instance:com.testng.DataProvider@6e3c1e69]" name="setupbrowser" is-config="true" duration-ms="17626" started-at="2019-11-02T09:00:20Z" finished-at="2019-11-02T09:00:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupbrowser -->
+        <test-method status="PASS" signature="calculate(java.lang.Object, java.lang.Object, java.lang.Object)[pri:0, instance:com.testng.DataProvider@6e3c1e69]" name="calculate" duration-ms="20980" started-at="2019-11-02T09:00:38Z" data-provider="mortgage" finished-at="2019-11-02T09:00:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculate -->
+        <test-method status="PASS" signature="calculate(java.lang.Object, java.lang.Object, java.lang.Object)[pri:0, instance:com.testng.DataProvider@6e3c1e69]" name="calculate" duration-ms="13222" started-at="2019-11-02T09:00:59Z" data-provider="mortgage" finished-at="2019-11-02T09:01:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[45]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculate -->
+        <test-method status="PASS" signature="calculate(java.lang.Object, java.lang.Object, java.lang.Object)[pri:0, instance:com.testng.DataProvider@6e3c1e69]" name="calculate" duration-ms="14480" started-at="2019-11-02T09:01:12Z" data-provider="mortgage" finished-at="2019-11-02T09:01:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[344]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[56]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculate -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.testng.DataProvider@6e3c1e69]" name="closebrowser" is-config="true" duration-ms="518" started-at="2019-11-02T09:01:26Z" finished-at="2019-11-02T09:01:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.testng.DataProvider -->
+    </test> <!-- chromebrowser -->
+    <test name="FirefoxBrowser" duration-ms="69044" started-at="2019-11-02T03:30:20Z" finished-at="2019-11-02T03:31:29Z">
+      <class name="com.testng.DataProvider">
+        <test-method status="PASS" signature="setupbrowser(java.lang.String)[pri:0, instance:com.testng.DataProvider@77f03bb1]" name="setupbrowser" is-config="true" duration-ms="25803" started-at="2019-11-02T09:00:20Z" finished-at="2019-11-02T09:00:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupbrowser -->
+        <test-method status="PASS" signature="calculate(java.lang.Object, java.lang.Object, java.lang.Object)[pri:0, instance:com.testng.DataProvider@77f03bb1]" name="calculate" duration-ms="16918" started-at="2019-11-02T09:00:46Z" data-provider="mortgage" finished-at="2019-11-02T09:01:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculate -->
+        <test-method status="PASS" signature="calculate(java.lang.Object, java.lang.Object, java.lang.Object)[pri:0, instance:com.testng.DataProvider@77f03bb1]" name="calculate" duration-ms="13337" started-at="2019-11-02T09:01:03Z" data-provider="mortgage" finished-at="2019-11-02T09:01:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[45]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculate -->
+        <test-method status="PASS" signature="calculate(java.lang.Object, java.lang.Object, java.lang.Object)[pri:0, instance:com.testng.DataProvider@77f03bb1]" name="calculate" duration-ms="12741" started-at="2019-11-02T09:01:16Z" data-provider="mortgage" finished-at="2019-11-02T09:01:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[344]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[56]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculate -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.testng.DataProvider@77f03bb1]" name="closebrowser" is-config="true" duration-ms="226" started-at="2019-11-02T09:01:29Z" finished-at="2019-11-02T09:01:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.testng.DataProvider -->
+    </test> <!-- FirefoxBrowser -->
+  </suite> <!-- ParallelTesting -->
+</testng-results>

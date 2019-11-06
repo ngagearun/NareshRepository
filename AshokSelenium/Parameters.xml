@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automationpractice">
+<test name ="Regression">
+<parameter name="browser" value="firefox"></parameter>
+<parameter name="URL" value="http://automationpractice.com/index.php"></parameter>
+<classes>
+<class name="com.testng.BuyaProduct"></class>
+</classes>
+</test>
+</suite>

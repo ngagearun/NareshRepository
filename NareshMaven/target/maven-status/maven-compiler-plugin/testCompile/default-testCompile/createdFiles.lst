@@ -1,0 +1,3 @@
+com\testng\CreateAnAccount.class
+com\testng\RegisterForTest.class
+com\testng\PreSetupTestSteps.class

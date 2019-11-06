@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ParallelTesting" parallel="tests">
+
+<test name="FirefoxBrowser">
+<parameter name="browsername" value="firefox"></parameter>
+<classes>
+<class name ="com.testng.DataProvider"/>
+</classes>
+</test>
+
+<test name="chromebrowser">
+<parameter name="browsername" value="chrome"></parameter>
+<classes>
+<class name ="com.testng.DataProvider"/>
+</classes>
+</test>
+
+</suite>
