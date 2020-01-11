@@ -15,7 +15,7 @@ public class Login {
 	public void the_user_is_on_mortagecalculator_homepage() {
 	    
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Lenovo\\Downloads\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",  System.getProperty("user.dir")+"chromedriver.exe");
 		driver =new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.mortgagecalculator.org/");
